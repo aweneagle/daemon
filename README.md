@@ -19,7 +19,7 @@ func main() {
 
 ./main
 
-# start program as deamon
+# start program as daemon
 
 ./main --daemon
 
@@ -33,6 +33,6 @@ func main() {
 
 ```
 
-* when start a program as an deamon, a directory name ".proc" will be created in the working directory, in which "./proc/sock" will be found
+* when start a program as an daemon, a directory name ".proc" will be created in the working directory, in which "./proc/sock" will be found
 
 * supervise use --daemon, --signal stop|restart  as  command flag
