@@ -4,7 +4,7 @@ usage:
 
 ```golang
 import (
-  _ "github.com/aweneagle/supervise"
+  _ "github.com/aweneagle/daemon"
 )
 
 func main() {
