@@ -21,15 +21,15 @@ func main() {
 
 # start program as deamon
 
-./main -d
+./main --daemon
 
 # restart program
 
-./main -s restart
+./main --signal restart
 
 # shutdown program
 
-./main -s shutdown
+./main --signal shutdown
 
 ```
 
